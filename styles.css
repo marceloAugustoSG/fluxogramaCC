@@ -1,0 +1,50 @@
+:root {
+    --ativado: #228b22;
+    --cor-bgbt: #979797;
+    --sem-pre: #4F4F4F;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    margin-top: 5%;
+}
+
+button {
+    width: 10rem;
+    height: 5rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: var(--cor-bgbt);
+}
+
+.nada {
+    display: none;
+}
+
+.desativado {
+    background-color: var(--cor-bgbt);
+    transition: .3s;
+}
+
+.sem-pre {
+    background-color: var(--sem-pre);
+}
+
+.ativado {
+    background-color: var(--ativado);
+    transition: .3s;
+}
